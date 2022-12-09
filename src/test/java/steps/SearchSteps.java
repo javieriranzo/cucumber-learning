@@ -20,7 +20,7 @@ public class SearchSteps {
 
 	@When("the user enters his or her data in the contact form")
 	public void userEntersPersonalDataInContactForm() {
-		webDriver.findElement(By.id("wsf-1-field-21")).sendKeys("Javier");
+		webDriver.findElement(By.id("wsf-1-field-21")).sendKeys("Francisco Javier");
 		webDriver.findElement(By.id("wsf-1-field-22")).sendKeys("Iranzo Rebenaque");
 		webDriver.findElement(By.id("wsf-1-field-23")).sendKeys("javieriranzo92@gmail.com");
 		webDriver.findElement(By.id("wsf-1-field-24")).sendKeys("+34666999333");
